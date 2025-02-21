@@ -1,0 +1,25 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Panel Requirement Form</title>
+</head>
+<body>
+    <h2>Solar Panel Requirement Form</h2>
+    <form id="solarForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="panels">Number of Solar Panels:</label><br>
+        <input type="number" id="panels" name="panels" min="1" required><br><br>
+
+        <label for="kw">Power Requirement (kW):</label><br>
+        <input type="number" id="kw" name="kw" step="0.1" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
